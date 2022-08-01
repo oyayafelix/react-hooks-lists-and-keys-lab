@@ -9,7 +9,7 @@ function ProjectItem({ name, about, technologies }) {
       <h3>{name}</h3>
       <p>{about}</p>
        <div className="technologies">{technologiesList}</div>
-    </div>
+    </div>    
   );
 }
 
